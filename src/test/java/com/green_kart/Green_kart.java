@@ -40,7 +40,7 @@ public class Green_kart {
 		p.getPlace_order().click();
 		p.getSelect_country().click();
 		p.getCheckbox().click();
-		p.getProceed_button();
+		p.getProceed_button().click();
 		
 		Assert.assertTrue(p.getOrder_placedSucessfully().isDisplayed());
 	}
